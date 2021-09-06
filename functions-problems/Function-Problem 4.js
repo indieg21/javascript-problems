@@ -12,23 +12,14 @@ step 3: write a for loop for reversing string
 function palindrome(str) {
   
     let reverse = ""
-  
-    for (let i = 0; i < str.length; i++) {
-    
-    reverse = str[i]+reverse
-      
-      
+    for (let i = 0; i < str.length; i++) { 
+    reverse = str[i]+reverse  
   }
-    
-    if(reverse === str){
-      
+    if(reverse === str){  
         return true;
-        
       }
     else{
-      
       return false;
     }
-   
   }
   console.log(palindrome("madam"))
