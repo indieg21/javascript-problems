@@ -5,17 +5,15 @@ Example array: var my Color=["Red", "Green", "White", "Black"];
 */
 
 function joinString() {
+  var color = " ";
 
-    var color = " "
+  var myColor = ["Red", "Green", "White", "Black"];
 
-    var myColor = ["Red", "Green", "White", "Black"];
+  for (let i = 0; i < myColor.length; i++) {
+    color += myColor[i] + " ";
+  }
 
-    for( let i = 0; i < myColor.length; i++){
-
-        color += myColor[i] + " ";
-    }
-
-    return color
+  return color;
 }
 
-console.log(joinString())
+console.log(joinString());
