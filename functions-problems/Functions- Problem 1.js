@@ -10,16 +10,14 @@ step 7: run log
 
 */
 
-
 function findTheLongestWord(str) {
-    let words = str.split(' ')
-    let longestWord = "";
-    for (let i = 0; i < words.length; i++) {
-      if(words[i].length > longestWord.length){
-        longestWord = words[i];
-      }
+  let words = str.split(" ");
+  let longestWord = "";
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length > longestWord.length) {
+      longestWord = words[i];
     }
-    return longestWord;
   }
-  console.log(findTheLongestWord('I love furry puppies.' ));
-    
+  return longestWord;
+}
+console.log(findTheLongestWord("I love furry puppies."));
