@@ -4,6 +4,9 @@ Create a basic HTML page with a table and two rows in it.
 
 Then, write a JavaScript function to add rows to a table.
 
+step:1 Add table of two rows in html
+step:2 Create a function that will assign rows to the table 
+
 */
 function insert_Row()
 {
