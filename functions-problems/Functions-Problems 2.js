@@ -1,4 +1,3 @@
-
 /* Write a JavaScript function that accepts a string as a parameter and
 //returns the number of vowels in  that string.
 /*
@@ -11,15 +10,15 @@ step 6: check if the current letter in our loop is a vowel
 */
 
 function countVowels(str) {
-  let newStr = str.toLowerCase()
-  let arr = newStr.split("")
-  let vowel = ["a", "e", "i", "o", "u" ]; 
+  let newStr = str.toLowerCase();
+  let arr = newStr.split("");
+  let vowel = ["a", "e", "i", "o", "u"];
   let count = 0;
-  for (let i = 0; i <arr.length; i++) {
-  if (vowel.includes(a = arr[i]) ) {
-  count = count +1
-}
-}
+  for (let i = 0; i < arr.length; i++) {
+    if (vowel.includes((a = arr[i]))) {
+      count = count + 1;
+    }
+  }
   return count;
 }
-console.log(countVowels("Beautiful day todaAAAy"))
+console.log(countVowels("Beautiful day todaAAAy"));
