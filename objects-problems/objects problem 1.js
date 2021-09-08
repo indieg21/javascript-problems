@@ -5,18 +5,16 @@ Your JavaScript function should take in two parameters, the object and the key/p
 */
 
 function deleteAge(obj, key) {
+  delete obj.key;
+  console.log(obj.key);
+  return obj;
+}
 
-    delete obj.key;
-   console.log(obj.key)
-   return obj
- }
- 
- 
- let person = {
-     firstName: "John",
-     lastName: "Doe",
-     age: 50,
-     eyeColor: "blue"
-   };
- 
- deleteAge(person, "age");
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue",
+};
+
+deleteAge(person, "age");

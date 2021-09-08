@@ -5,19 +5,16 @@ Create an object with three items in it, then write a JavaScript function that a
 */
 
 function findLength(obj) {
+  let size = 0;
 
-    let size = 0; 
-
-    for(key in obj) {
-
-        if (obj.hasOwnProperty(key)) {
-            size += 1
-        }
+  for (key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      size += 1;
     }
-    return size
+  }
+  return size;
 }
 
-let cars =  {name:"Ford", models:["Fiesta", "Focus", "Mustang"], year: 2029}
+let cars = { name: "Ford", models: ["Fiesta", "Focus", "Mustang"], year: 2029 };
 
-console.log(findLength(cars))
-
+console.log(findLength(cars));
