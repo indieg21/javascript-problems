@@ -3,7 +3,7 @@ Write a JavaScript function that
 accepts two arguments, a string and a letter and the function will 
 count the number of occurrences of the specified letter within the string. 
 
-Create a function w/ two paramenter, a string & a letter.
+Define/create a function w/ two paramenter, a string & a letter.
 
 Create a varaible that stores the results of str.split. This mehtod will return the array of characters. It will split
 every character. The "" is an empty quote allowing no space between that character.

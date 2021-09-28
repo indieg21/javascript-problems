@@ -9,14 +9,14 @@ step 5: start looping through our array of letters
 step 6: check if the current letter in our loop is a vowel
 Details
 
- 
+  Define/create a function w/ paramenter that is a string.
  I need to find the vowel count w/in the string
  To do this I need to convert my str into lower case. Why? B/c all my vowels 
  are lower-case and it looks better.
  Next I want to convert my newStr to an array using the split method.
  b/c this will go throuhg my for loop.
- Let count is set to intial vaule of the element at 0 and count will
- go up by 1 everytime we find a vowel
+ Let count acts as a counter of the element and is set as 0 and count will
+ go up by 1 everytime we find a vowel. 
  
  The for loop will loop through the arr. Next checking w/ "if"
  to verify the vowels against each element inside the arr.

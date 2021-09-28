@@ -12,7 +12,7 @@ step 7: run log
 
 Details
 
- 
+ Define/create a function w/ paramenter that is a string.
  I need to find the longest word w/in the string
  Create a Variable that will define str.split. The split method will return 
  array words.
@@ -25,8 +25,8 @@ Details
 */
 
 function findTheLongestWord(str) {
-  let words = str.split(" ");
-  let longestWord = "";
+  let words = str.split(" ");// why
+  let longestWord = ""; // why
   for (let i = 0; i < words.length; i++) {
     if (words[i].length > longestWord.length) {
       longestWord = words[i];
